@@ -19,42 +19,8 @@ I would make just a few small changes:
 
 | **Program** | **Values Used** | **Expected Result Before Running** | **Actual Output** | **Match or Fix** |
 | --- | --- | --- | --- | --- |
-| diamond.cpp | Leading Spaces: 3, 2, 1, 0, 1, 2, 3  
-Asterisks: 1, 3, 5, 7, 5, 3, 1 | 
-A centered, 7 row diamond matching
-
-the given example
-
- |  `*`  
- `***`  
- `*****`  
-`*******`  
- `*****`  
- `***`  
- `*` | Match |
-| game\_time.cpp | 
-
-Level 1: 78 minutes
-
-Level 2: 144 minutes
-
- | 
-
-Level 1: 1 hour, 18 minutes
-
-Level 2: 2 hours, 24 minutes
-
-Difference: 1 hour, 6 minutes
-
- | 
-
-Level 1: 1 hour, 18 minutes
-
-Level 2: 2 hours, 24 minutes
-
-Difference 1 hour, 6 minutes
-
- | Match |
+| diamond.cpp | Leading Spaces: 3, 2, 1, 0, 1, 2, 3 Asterisks: 1, 3, 5, 7, 5, 3, 1 | A centered, 7 row diamond matching the given example | `   *`<br> `  ***`<br> ` *****`<br> `*******`<br> ` *****`<br> `  ***`<br> `   *` | Match |
+| game\_time.cpp | Level 1: 78 minutes Level 2: 144 minutes | Level 1: 1 hour, 18 minutes Level 2: 2 hours, 24 minutes Difference: 1 hour, 6 minutes | Level 1: 1 hour, 18 minutes Level 2: 2 hours, 24 minutes Difference 1 hour, 6 minutes | Match |
 
 **Learning**
 
