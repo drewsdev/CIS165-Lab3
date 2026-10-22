@@ -105,7 +105,7 @@ g++ -std=c++17 -Wall -Wextra game_time.cpp -o game_time
 | level\_2\_remaining\_minutes | 144 % 60 | 24 |
 | difference\_minutes | 144 - 78 | 66 |
 | difference\_hours | 66 / 60 | 1 |
-| difference\_remaining\_minutes | 66 % 6 | 6 |
+| difference\_remaining\_minutes | 66 % 60 | 6 |
 
 *   Explain why the assignment asks you to store calculations in variables before using `cout`.
     *   The "cout" statement finally prints the result back to the user. Storing the calculation before printing makes it easier to read. It also allows me to easily use that variable in other places if needed, like another calculation if I decided to add one.
