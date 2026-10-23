@@ -86,7 +86,7 @@ g++ -std=c++17 -Wall -Wextra game_time.cpp -o game_time
 
 ## **Explanation**
 
-*   **F**For `diamond.cpp`, explain how your output statements create the required shape. How did you check spaces that are difficult to see?
+*   **For `diamond.cpp`, explain how your output statements create the required shape. How did you check spaces that are difficult to see?
     *   Each `cout` statement prints one row of the diamond, and `/n` moves the output to the next line. The number of asterisks increases from 1 > 3 > 5 >7 then goes back down to 1 in the same steps. The leading spaces follow the pattern of 3, 2, 1 ,0, 1, 2, 3.  
         To check the spaces, counting each between the opening quotation mark and the first asterisk in that line can be easily done.
 *   For `game_time.cpp`, explain how integer division and the remainder operator convert total minutes into hours and remaining minutes.
